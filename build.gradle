@@ -12,13 +12,15 @@ repositories {
 }
 
 checkstyle {
-    toolVersion "8.0"
+    toolVersion "8.7"
+    checkstyleTest.enabled = false
+    configFile = new File(rootDir, "config/checkstyle.xml")
 }
 
 javadoc {
     source = sourceSets.main.allJava
     destinationDir = file('docs')
-    title = "Lab8"
+    title = "Lab5"
 }
 
 // vim: ts=4:sw=4:et:ft=groovy
