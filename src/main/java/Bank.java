@@ -5,7 +5,7 @@
  * both classes, by fixing checkstyle errors, defining constructors, getters and setters, and
  * accessing private variables.
  *
- * @see <a href="https://cs125.cs.illinois.edu/lab/8/">Lab 8 Description</a>
+ * @see <a href="https://cs125.cs.illinois.edu/lab/5/">Lab 5 Description</a>
  */
 public class Bank {
 
